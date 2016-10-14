@@ -1,0 +1,518 @@
+[36m02 10 2016 01:56:48.681:DEBUG [plugin]: [39mLoading karma-* from /Users/Amit/Documents/Work/karmatest-master/node_modules
+[36m02 10 2016 01:56:48.684:DEBUG [plugin]: [39mLoading plugin /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-chrome-launcher.
+[36m02 10 2016 01:56:48.722:DEBUG [plugin]: [39mLoading plugin /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-openui5.
+[36m02 10 2016 01:56:48.723:DEBUG [plugin]: [39mLoading plugin /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-phantomjs-launcher.
+[36m02 10 2016 01:56:48.726:DEBUG [plugin]: [39mLoading plugin /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-qunit.
+[36m02 10 2016 01:56:48.741:DEBUG [web-server]: [39mInstantiating middleware
+[36m02 10 2016 01:56:51.590:DEBUG [karma]: [39mList of files has changed, trying to execute
+[33m02 10 2016 01:56:51.591:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[36m02 10 2016 01:56:51.607:DEBUG [watcher]: [39mWatching "/Users/Amit/Documents/Work/karmatest-master/webapp"
+[36m02 10 2016 01:56:51.607:DEBUG [watcher]: [39mWatching "/Users/Amit/Documents/Work/karmatest-master/test"
+[32m02 10 2016 01:56:51.616:INFO [karma]: [39mKarma v1.3.0 server started at http://localhost:9876/
+[32m02 10 2016 01:56:51.616:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[32m02 10 2016 01:56:51.730:INFO [launcher]: [39mStarting browser Chrome
+[36m02 10 2016 01:56:51.731:DEBUG [temp-dir]: [39mCreating temp dir at /var/folders/vj/v7v0wczd3l1clgddrm2sv5b00000gn/T/karma-96639172
+[36m02 10 2016 01:56:51.731:DEBUG [launcher]: [39m/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --user-data-dir=/var/folders/vj/v7v0wczd3l1clgddrm2sv5b00000gn/T/karma-96639172 --no-default-browser-check --no-first-run --disable-default-apps --disable-popup-blocking --disable-translate http://localhost:9876/?id=96639172
+[36m02 10 2016 01:56:52.852:DEBUG [web-server]: [39mserving: /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/client.html
+[36m02 10 2016 01:56:52.961:DEBUG [web-server]: [39mserving: /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/karma.js
+[36m02 10 2016 01:56:53.349:DEBUG [karma]: [39mA browser has connected on socket /#IiOZiFExpAL8vBuYAAAA
+[36m02 10 2016 01:56:53.392:DEBUG [web-server]: [39mupgrade /socket.io/?EIO=3&transport=websocket&sid=IiOZiFExpAL8vBuYAAAA
+[32m02 10 2016 01:56:53.466:INFO [Chrome 53.0.2785 (Mac OS X 10.11.6)]: [39mConnected on socket /#IiOZiFExpAL8vBuYAAAA with id 96639172
+[36m02 10 2016 01:56:53.467:DEBUG [launcher]: [39mChrome (id 96639172) captured in 1.85 secs
+[36m02 10 2016 01:56:53.467:DEBUG [karma]: [39mAll browsers are ready, executing
+[36m02 10 2016 01:56:53.468:DEBUG [karma]: [39mCaptured 1 browsers
+[36m02 10 2016 01:56:53.476:DEBUG [web-server]: [39mserving: /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/favicon.ico
+[36m02 10 2016 01:56:53.507:DEBUG [middleware:karma]: [39mcustom files null null
+[36m02 10 2016 01:56:53.507:DEBUG [middleware:karma]: [39mServing static request /context.html
+[36m02 10 2016 01:56:53.544:DEBUG [web-server]: [39mserving: /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/context.html
+[36m02 10 2016 01:56:53.566:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/qunitjs/qunit/qunit.js?5f5465f7e67bb6fddf10af37eb3ded7e8f2a68ee /
+[36m02 10 2016 01:56:53.566:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/node_modules/qunitjs/qunit/qunit.js
+[36m02 10 2016 01:56:53.569:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/node_modules/qunitjs/qunit/qunit.js
+[36m02 10 2016 01:56:53.572:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-qunit/lib/adapter.js?2cc5e3594a3b8ae53e8218929324788866ad223b /
+[36m02 10 2016 01:56:53.572:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-qunit/lib/adapter.js
+[36m02 10 2016 01:56:53.573:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-openui5/lib/adapter.js?b79c1417d9dcc59ead85e8cf6f3d5335dd551669 /
+[36m02 10 2016 01:56:53.574:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-openui5/lib/adapter.js
+[36m02 10 2016 01:56:53.574:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap-ui-core.js?b82bf4df7ccb19da74de5cd225da4da6f0ee0bd5 /
+[36m02 10 2016 01:56:53.574:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap-ui-core.js
+[36m02 10 2016 01:56:53.574:DEBUG [middleware:source-files]: [39mRequesting /base/node_modules/karma-openui5/lib/mockserver.js?9b2436e4550c602edd398113b43b4216e824cf05 /
+[36m02 10 2016 01:56:53.575:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-openui5/lib/mockserver.js
+[36m02 10 2016 01:56:53.576:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-qunit/lib/adapter.js
+[36m02 10 2016 01:56:53.577:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-openui5/lib/adapter.js
+[36m02 10 2016 01:56:53.578:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap-ui-core.js
+[36m02 10 2016 01:56:53.581:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/node_modules/karma-openui5/lib/mockserver.js
+[36m02 10 2016 01:56:53.583:DEBUG [middleware:source-files]: [39mRequesting /base/test/Filter.qunit.js?1ae3d261f216d682329a9d77b8a267188e3250d6 /
+[36m02 10 2016 01:56:53.585:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/Filter.qunit.js
+[36m02 10 2016 01:56:53.587:DEBUG [middleware:source-files]: [39mRequesting /base/test/Navigation.qunit.html?b9aae7921d9f079011f626c53a19e2ee3598f871 /
+[36m02 10 2016 01:56:53.587:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/Navigation.qunit.html
+[36m02 10 2016 01:56:53.589:DEBUG [middleware:source-files]: [39mRequesting /base/test/Filter.qunit.html?5f835f8c55fda54a8f8681def672a156e33a027e /
+[36m02 10 2016 01:56:53.589:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/Filter.qunit.html
+[36m02 10 2016 01:56:53.590:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/Filter.qunit.js
+[36m02 10 2016 01:56:53.591:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/Navigation.qunit.html
+[36m02 10 2016 01:56:53.593:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/Filter.qunit.html
+[36m02 10 2016 01:56:53.595:DEBUG [middleware:source-files]: [39mRequesting /base/test/action/NavigationAction.js?44d1015adec6c6fcc93cb850e835f0bed949fa80 /
+[36m02 10 2016 01:56:53.595:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/action/NavigationAction.js
+[36m02 10 2016 01:56:53.596:DEBUG [middleware:source-files]: [39mRequesting /base/test/arrangement/CommonArrangement.js?2ebeeaf384ccef4b7c4e2c084c962f8da0d3b0e9 /
+[36m02 10 2016 01:56:53.596:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/arrangement/CommonArrangement.js
+[36m02 10 2016 01:56:53.596:DEBUG [web-server]: [39mserving: /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/context.js
+[36m02 10 2016 01:56:53.600:DEBUG [middleware:source-files]: [39mRequesting /base/test/Navigation.qunit.js?28e0c4e284ec6bf7b4ce9a853b812b59371f2a70 /
+[36m02 10 2016 01:56:53.600:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/Navigation.qunit.js
+[36m02 10 2016 01:56:53.600:DEBUG [middleware:source-files]: [39mRequesting /base/test/action/FilterAction.js?b1727960f31840ea410026704dee7d8bb2197d8e /
+[36m02 10 2016 01:56:53.600:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/action/FilterAction.js
+[36m02 10 2016 01:56:53.602:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/action/NavigationAction.js
+[36m02 10 2016 01:56:53.603:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/arrangement/CommonArrangement.js
+[36m02 10 2016 01:56:53.604:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/Navigation.qunit.js
+[36m02 10 2016 01:56:53.607:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/action/FilterAction.js
+[36m02 10 2016 01:56:53.609:DEBUG [middleware:source-files]: [39mRequesting /base/test/assertion/FilterAssertion.js?6688ae765586780441d8bc2abe910ff695033350 /
+[36m02 10 2016 01:56:53.610:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/assertion/FilterAssertion.js
+[36m02 10 2016 01:56:53.611:DEBUG [middleware:source-files]: [39mRequesting /base/test/assertion/NavigationAssertion.js?0ffd36dab10a0dde857c2d364e3e7274dde476b9 /
+[36m02 10 2016 01:56:53.611:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/assertion/NavigationAssertion.js
+[36m02 10 2016 01:56:53.612:DEBUG [middleware:source-files]: [39mRequesting /base/test/arrangement/NavigationArrangement.js?9f5611a046994ebdcb5173bac32e1b044600e041 /
+[36m02 10 2016 01:56:53.612:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/arrangement/NavigationArrangement.js
+[36m02 10 2016 01:56:53.612:DEBUG [middleware:source-files]: [39mRequesting /base/test/assertion/CommonAssertion.js?93f30471d343156913b6bbc2ca3c6112846fbeea /
+[36m02 10 2016 01:56:53.612:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/assertion/CommonAssertion.js
+[36m02 10 2016 01:56:53.612:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/assertion/FilterAssertion.js
+[36m02 10 2016 01:56:53.613:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/assertion/NavigationAssertion.js
+[36m02 10 2016 01:56:53.615:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/arrangement/NavigationArrangement.js
+[36m02 10 2016 01:56:53.616:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/assertion/CommonAssertion.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Device API logging initialized - DEVICE'
+
+[36m02 10 2016 01:56:53.731:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/core/library-preload.json /
+[36m02 10 2016 01:56:53.731:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/core/library-preload.json
+[36m02 10 2016 01:56:53.731:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/core/library-preload.json
+[36m02 10 2016 01:56:53.872:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/jquery-mobile-custom.js /
+[36m02 10 2016 01:56:53.872:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/jquery-mobile-custom.js
+[36m02 10 2016 01:56:53.872:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/jquery-mobile-custom.js
+[36m02 10 2016 01:56:53.920:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.m/resources/sap/m/library-preload.json /
+[36m02 10 2016 01:56:53.920:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.m/resources/sap/m/library-preload.json
+[36m02 10 2016 01:56:53.920:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.m/resources/sap/m/library-preload.json
+[36m02 10 2016 01:56:53.985:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library.css /
+[36m02 10 2016 01:56:53.985:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:53.986:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:53.996:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library.css /
+[36m02 10 2016 01:56:53.996:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:53.996:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:54.002:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/sinon.js /
+[36m02 10 2016 01:56:54.003:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/sinon.js
+[36m02 10 2016 01:56:54.004:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/sinon.js
+[36m02 10 2016 01:56:54.038:DEBUG [middleware:karma]: [39mcustom files null null
+[36m02 10 2016 01:56:54.038:DEBUG [middleware:karma]: [39mServing static request /context.html
+[36m02 10 2016 01:56:54.051:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/node_modules/karma/static/context.html
+[36m02 10 2016 01:56:54.114:DEBUG [middleware:source-files]: [39mRequesting /resources/sap-ui-core.js /
+[36m02 10 2016 01:56:54.115:DEBUG [middleware:source-files]: [39mFetching /resources/sap-ui-core.js
+[33m02 10 2016 01:56:54.116:WARN [web-server]: [39m404: /resources/sap-ui-core.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] SAP Logger started. -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/m', '/base/bower_components/openui5-sap.m/resources/sap/m/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/ui/layout', '/base/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/ui/demo/tdg', '/base/webapp/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/ui/demo/tdg/test', '/base/test/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('', '/base/bower_components/openui5-sap.ui.core/resources/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] URL prefixes set to: -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   (default) : /base/bower_components/openui5-sap.ui.core/resources/ -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   'sap/m' : /base/bower_components/openui5-sap.m/resources/sap/m/ -  sap.ui.ModuleSystem'
+
+[36m02 10 2016 01:56:54.122:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa5.js /
+[36m02 10 2016 01:56:54.122:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa5.js
+[36m02 10 2016 01:56:54.123:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa5.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   'sap/ui/layout' : /base/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/ -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   'sap/ui/demo/tdg' : /base/webapp/ -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   'sap/ui/demo/tdg/test' : /base/test/ -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Creating Core -  sap.ui.core.Core'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   theme = sap_bluecrystal -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   modules = sap.m.library -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html]   xx-supportedLanguages =  -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Declared modules: sap.ui.core.library,sap.m.library - sap.ui.core.Core '
+
+[36m02 10 2016 01:56:54.129:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa.js /
+[36m02 10 2016 01:56:54.129:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa.js
+[36m02 10 2016 01:56:54.130:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Declared theme sap_bluecrystal -  sap.ui.core.Core'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:53 [context.html] Browser-Id: cr53 -  sap.ui.core.Core'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] no IE8 HTML5 support required -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Sync point 'UI5 Document Ready' created -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Sync point 'UI5 Core Preloads and Bootstrap Script' created -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Sync point 'UI5 Core Preloads and Bootstrap Script' finished (tasks:2, open:0, failures:0) -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:53 [context.html] Analyzing Library sap.ui.core -  sap.ui.core.Core.initLibrary()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) WARN: '2016-10-02 01:56:53 [context.html] library info setting ignored: name=sap.ui.core -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/ui/core/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+
+[36m02 10 2016 01:56:54.137:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/OpaPlugin.js /
+[36m02 10 2016 01:56:54.137:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/OpaPlugin.js
+[36m02 10 2016 01:56:54.137:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/OpaPlugin.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Including /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library.css -  sap.ui.core.Core.includeLibraryTheme() -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:53 [context.html] Analyzing Library sap.m -  sap.ui.core.Core.initLibrary()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) WARN: '2016-10-02 01:56:53 [context.html] library info setting ignored: name=sap.m -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:53 [context.html] resolve Dependencies to sap.ui.core -  sap.ui.core.Core.initLibrary()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] registerResourcePath ('sap/m/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+
+[36m02 10 2016 01:56:54.144:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/signals.js /
+[36m02 10 2016 01:56:54.144:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/signals.js
+[36m02 10 2016 01:56:54.144:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/signals.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:53 [context.html] Including /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library.css -  sap.ui.core.Core.includeLibraryTheme() -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] MockServer: adding GET request handler for pattern /^\$metadata([?#].*)?$/ -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] MockServer: adding GET request handler for pattern /^$$/ -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] MockServer: adding POST request handler for pattern /^\$batch([?#].*)?$/ -  '
+
+[36m02 10 2016 01:56:54.150:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/hasher.js /
+[36m02 10 2016 01:56:54.150:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/hasher.js
+[36m02 10 2016 01:56:54.151:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/hasher.js
+[36m02 10 2016 01:56:54.161:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/mapPolyfill.js /
+[36m02 10 2016 01:56:54.161:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/mapPolyfill.js
+[36m02 10 2016 01:56:54.162:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/mapPolyfill.js
+[36m02 10 2016 01:56:54.165:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/filterPolyfill.js /
+[36m02 10 2016 01:56:54.166:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/filterPolyfill.js
+[36m02 10 2016 01:56:54.167:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/filterPolyfill.js
+[36m02 10 2016 01:56:54.172:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/PageObjectFactory.js /
+[36m02 10 2016 01:56:54.172:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/PageObjectFactory.js
+[36m02 10 2016 01:56:54.173:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/PageObjectFactory.js
+[36m02 10 2016 01:56:54.177:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/qunit/QUnitUtils.js /
+[36m02 10 2016 01:56:54.177:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/qunit/QUnitUtils.js
+[36m02 10 2016 01:56:54.178:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/qunit/QUnitUtils.js
+[36m02 10 2016 01:56:54.184:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/Matcher.js /
+[36m02 10 2016 01:56:54.184:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/Matcher.js
+[36m02 10 2016 01:56:54.185:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/Matcher.js
+[36m02 10 2016 01:56:54.190:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/AggregationFilled.js /
+[36m02 10 2016 01:56:54.190:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/AggregationFilled.js
+[36m02 10 2016 01:56:54.192:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/AggregationFilled.js
+[36m02 10 2016 01:56:54.197:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/PropertyStrictEquals.js /
+[36m02 10 2016 01:56:54.197:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/PropertyStrictEquals.js
+[36m02 10 2016 01:56:54.198:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/matchers/PropertyStrictEquals.js
+[36m02 10 2016 01:56:54.203:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/everyPolyfill.js /
+[36m02 10 2016 01:56:54.203:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/everyPolyfill.js
+[36m02 10 2016 01:56:54.203:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/everyPolyfill.js
+[36m02 10 2016 01:56:54.209:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/test/opaQunit.js /
+[36m02 10 2016 01:56:54.210:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/opaQunit.js
+[36m02 10 2016 01:56:54.210:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/test/opaQunit.js
+[36m02 10 2016 01:56:54.214:DEBUG [middleware:source-files]: [39mRequesting /base/test/action/FilterAction.js /
+[36m02 10 2016 01:56:54.214:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/action/FilterAction.js
+[36m02 10 2016 01:56:54.215:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/action/FilterAction.js
+[36m02 10 2016 01:56:54.218:DEBUG [middleware:source-files]: [39mRequesting /base/test/arrangement/CommonArrangement.js /
+[36m02 10 2016 01:56:54.219:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/arrangement/CommonArrangement.js
+[36m02 10 2016 01:56:54.219:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/arrangement/CommonArrangement.js
+[36m02 10 2016 01:56:54.225:DEBUG [middleware:source-files]: [39mRequesting /base/test/assertion/FilterAssertion.js /
+[36m02 10 2016 01:56:54.225:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/assertion/FilterAssertion.js
+[36m02 10 2016 01:56:54.226:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/assertion/FilterAssertion.js
+[36m02 10 2016 01:56:54.229:DEBUG [middleware:source-files]: [39mRequesting /base/test/assertion/CommonAssertion.js /
+[36m02 10 2016 01:56:54.229:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/test/assertion/CommonAssertion.js
+[36m02 10 2016 01:56:54.230:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/test/assertion/CommonAssertion.js
+[36m02 10 2016 01:56:54.241:DEBUG [middleware:source-files]: [39mRequesting /resources/sap-ui-core.js /
+[36m02 10 2016 01:56:54.242:DEBUG [middleware:source-files]: [39mFetching /resources/sap-ui-core.js
+[33m02 10 2016 01:56:54.243:WARN [web-server]: [39m404: /resources/sap-ui-core.js
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] Sync point 'UI5 Document Ready' finished (tasks:2, open:0, failures:0) -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] Initializing -  sap.ui.core.Core.init()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] FocusHandler setup on Root undefined -  sap.ui.core.FocusHandler'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] Initialized -  sap.ui.core.Core.init()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] Starting Plugins -  sap.ui.core.Core.init()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] Plugins started -  sap.ui.core.Core.init()'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) INFO: '2016-10-02 01:56:54 [context.html] registerResourcePath ('sap/ui/core/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.ui.core': true/true/true -  '
+
+Chrome 53.0.2785 (Mac OS X 10.11.6) DEBUG: '2016-10-02 01:56:54 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.m': true/true/true -  '
+
+[36m02 10 2016 01:56:54.286:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/Component-preload.js /
+[36m02 10 2016 01:56:54.286:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/Component-preload.js
+[33m02 10 2016 01:56:54.287:WARN [web-server]: [39m404: /base/webapp/Component-preload.js
+[36m02 10 2016 01:56:54.292:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/Component.js /
+[36m02 10 2016 01:56:54.292:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/Component.js
+[36m02 10 2016 01:56:54.293:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/Component.js
+[36m02 10 2016 01:56:54.296:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/MyRouter.js /
+[36m02 10 2016 01:56:54.296:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/MyRouter.js
+[36m02 10 2016 01:56:54.297:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/MyRouter.js
+[36m02 10 2016 01:56:54.325:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/crossroads.js /
+[36m02 10 2016 01:56:54.325:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/crossroads.js
+[36m02 10 2016 01:56:54.326:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/crossroads.js
+[36m02 10 2016 01:56:54.344:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/library-preload.json /
+[36m02 10 2016 01:56:54.344:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/library-preload.json
+[36m02 10 2016 01:56:54.344:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/library-preload.json
+[36m02 10 2016 01:56:54.356:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library.css /
+[36m02 10 2016 01:56:54.356:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:54.357:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library.css
+[36m02 10 2016 01:56:54.378:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/App.view.xml /
+[36m02 10 2016 01:56:54.378:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/App.view.xml
+[36m02 10 2016 01:56:54.378:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/App.view.xml
+[36m02 10 2016 01:56:54.392:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en_US.properties /
+[36m02 10 2016 01:56:54.392:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en_US.properties
+[33m02 10 2016 01:56:54.393:WARN [web-server]: [39m404: /base/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en_US.properties
+[36m02 10 2016 01:56:54.436:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/i18n/messageBundle_en_US.properties /
+[36m02 10 2016 01:56:54.436:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/i18n/messageBundle_en_US.properties
+[33m02 10 2016 01:56:54.437:WARN [web-server]: [39m404: /base/webapp/i18n/messageBundle_en_US.properties
+[36m02 10 2016 01:56:54.456:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/datajs.js /
+[36m02 10 2016 01:56:54.456:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/datajs.js
+[36m02 10 2016 01:56:54.457:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/thirdparty/datajs.js
+[36m02 10 2016 01:56:54.512:DEBUG [middleware:source-files]: [39mRequesting /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata /
+[36m02 10 2016 01:56:54.512:DEBUG [middleware:source-files]: [39mFetching /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata
+[33m02 10 2016 01:56:54.513:WARN [web-server]: [39m404: /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata
+[36m02 10 2016 01:56:54.517:DEBUG [middleware:source-files]: [39mRequesting /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata /
+[36m02 10 2016 01:56:54.517:DEBUG [middleware:source-files]: [39mFetching /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata
+[33m02 10 2016 01:56:54.518:WARN [web-server]: [39m404: /uilib-sample/proxy/http/services.odata.org/V2/(S(sapuidemobespractices))/OData/OData.svc/$metadata
+[36m02 10 2016 01:56:54.536:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/Master.view.xml /
+[36m02 10 2016 01:56:54.536:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/Master.view.xml
+[36m02 10 2016 01:56:54.537:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/Master.view.xml
+[36m02 10 2016 01:56:54.543:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/Master.controller.js /
+[36m02 10 2016 01:56:54.543:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/Master.controller.js
+[36m02 10 2016 01:56:54.544:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/Master.controller.js
+[36m02 10 2016 01:56:54.550:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/util/Formatter.js /
+[36m02 10 2016 01:56:54.550:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/util/Formatter.js
+[36m02 10 2016 01:56:54.551:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/util/Formatter.js
+[36m02 10 2016 01:56:54.556:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/util/Controller.js /
+[36m02 10 2016 01:56:54.556:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/util/Controller.js
+[36m02 10 2016 01:56:54.556:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/util/Controller.js
+[36m02 10 2016 01:56:54.569:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en.properties /
+[36m02 10 2016 01:56:54.570:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en.properties
+[36m02 10 2016 01:56:54.570:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.m/resources/sap/m/messagebundle_en.properties
+[36m02 10 2016 01:56:54.621:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/i18n/messageBundle_en.properties /
+[36m02 10 2016 01:56:54.621:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/i18n/messageBundle_en.properties
+[36m02 10 2016 01:56:54.622:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/i18n/messageBundle_en.properties
+[36m02 10 2016 01:56:54.638:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/Detail.view.xml /
+[36m02 10 2016 01:56:54.638:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/Detail.view.xml
+[36m02 10 2016 01:56:54.639:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/Detail.view.xml
+[36m02 10 2016 01:56:54.643:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/Detail.controller.js /
+[36m02 10 2016 01:56:54.643:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/Detail.controller.js
+[36m02 10 2016 01:56:54.644:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/Detail.controller.js
+[36m02 10 2016 01:56:54.676:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/SupplierAddressForm.fragment.xml /
+[36m02 10 2016 01:56:54.676:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/SupplierAddressForm.fragment.xml
+[36m02 10 2016 01:56:54.677:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/SupplierAddressForm.fragment.xml
+[36m02 10 2016 01:56:54.705:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/messagebundle_en_US.properties /
+[36m02 10 2016 01:56:54.706:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/messagebundle_en_US.properties
+[33m02 10 2016 01:56:54.707:WARN [web-server]: [39m404: /base/bower_components/openui5-sap.ui.layout/resources/sap/ui/layout/messagebundle_en_US.properties
+[36m02 10 2016 01:56:54.718:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/view/CategoryInfoForm.fragment.xml /
+[36m02 10 2016 01:56:54.718:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/view/CategoryInfoForm.fragment.xml
+[36m02 10 2016 01:56:54.718:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/view/CategoryInfoForm.fragment.xml
+[36m02 10 2016 01:56:54.738:DEBUG [middleware:source-files]: [39mRequesting /base/webapp/i18n/messageBundle.properties /
+[36m02 10 2016 01:56:54.738:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/webapp/i18n/messageBundle.properties
+[36m02 10 2016 01:56:54.738:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/webapp/i18n/messageBundle.properties
+
+[1A[2KChrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] couldn't preload component from sap.ui.demo.tdg.Component-preload: failed to load 'sap/ui/demo/tdg/Component-preload.js' from /base/webapp/Component-preload.js: 404 - Not Found -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.core.UIComponent.extend' called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] Component "sap.ui.demo.tdg.Component" is loading library: "sap.m" -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] Component "sap.ui.demo.tdg.Component" is loading library: "sap.ui.layout" -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] Analyzing Library sap.ui.layout -  sap.ui.core.Core.initLibrary()'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] library info setting ignored: name=sap.ui.layout -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] resolve Dependencies to sap.ui.core -  sap.ui.core.Core.initLibrary()'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] registerResourcePath ('sap/ui/layout/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] Including /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library.css -  sap.ui.core.Core.includeLibraryTheme() -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] registerResourcePath ('sap/ui/core/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.ui.core': true/true/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.m': true/true/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.ui.layout': false/false/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] ThemeCheck: Theme not yet applied. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.core.mvc.XMLView' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] Class sap.ui.core.mvc.XMLAfterRenderingNotifier registered for library sap.ui.core.mvc -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.Button' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.Popover' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.model.odata.ODataModel' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] EventProvider sap.ui.model.odata.ODataModel path /$metadata should be absolute if no Context is set -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.model.json.JSONModel' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.controller' called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.core.CustomData' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] Usage of deprecated feature: sap.m.ListBase.attachSelect -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.Label' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.Text' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.ui.core.Icon' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.ObjectNumber' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] Usage of deprecated feature: sap.m.ObjectHeader.setFirstStatus -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] Class sap.ui.layout.form.ResponsiveGridLayoutPanel registered for library sap.ui.layout.form -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.IconTabHeader' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KWARN: '2016-10-02 01:56:54 [context.html] Element sap.m.NavContainer#__xmlview0--idAppControl-Detail: Cannot navigate to page __xmlview2 because this is the current page. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] navigation to view with id: __xmlview1 is skipped since it already is displayed by its targetControl -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:54 [context.html] Component instance Id = __component0 -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[36m02 10 2016 01:56:54.854:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library-parameters.json /
+[36m02 10 2016 01:56:54.854:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.854:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.871:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library-parameters.json /
+[36m02 10 2016 01:56:54.871:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.872:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.878:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library-parameters.json /
+[36m02 10 2016 01:56:54.879:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.879:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/layout/themes/sap_bluecrystal/library-parameters.json
+[36m02 10 2016 01:56:54.906:DEBUG [middleware:source-files]: [39mRequesting /base/bower_components/openui5-sap.ui.core/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf /
+[36m02 10 2016 01:56:54.906:DEBUG [middleware:source-files]: [39mFetching /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf
+[36m02 10 2016 01:56:54.907:DEBUG [web-server]: [39mserving (cached): /Users/Amit/Documents/Work/karmatest-master/bower_components/openui5-sap.ui.core/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf
+[1A[2KDEBUG: '2016-10-02 01:56:54 [context.html] lazy stub for 'sap.m.CustomListItem' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] lazy stub for 'sap.m.BusyIndicator' (constructor) called. -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] Event fired: 'focusin' on Element sap.m.SearchField#__xmlview1--searchField -  sap.ui.core.UIArea'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] Event focus reached Focus Handler (target: [object HTMLInputElement]__xmlview1--searchField-I) -  sap.ui.core.FocusHandler'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] Store focus info of control __xmlview1--searchField -  sap.ui.core.FocusHandler'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] Apply focus info of control __xmlview1--searchField not possible -  sap.ui.core.FocusHandler'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KINFO: '2016-10-02 01:56:55 [context.html] registerResourcePath ('sap/ui/core/themes/sap_bluecrystal', '/base/bower_components/openui5-themelib_sap_bluecrystal/resources/sap/ui/core/themes/sap_bluecrystal/') -  sap.ui.ModuleSystem'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.ui.core': true/true/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.m': true/true/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] ThemeCheck: Check styles 'sap-ui-theme-sap.ui.layout': true/false/true -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] ThemeCheck: Check styles 'undefined': true/false/false -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] ThemeCheck: Check styles 'undefined': true/false/false -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] Event fired: 'select' on Element sap.m.SearchField#__xmlview1--searchField -  sap.ui.core.UIArea'
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:55 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:56 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:56 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:56 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:57 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:57 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:58 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:58 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:58 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:59 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:56:59 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:00 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:00 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:00 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:01 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:01 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:02 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:02 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:02 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:03 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:03 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:04 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:04 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:04 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:05 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:05 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:06 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:06 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:06 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:07 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:07 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:08 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:08 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:08 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:09 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:09 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KDEBUG: '2016-10-02 01:57:10 [context.html] control was filtered out by the matchers - skipping the check -  '
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KChrome 53.0.2785 (Mac OS X 10.11.6)  Should reset the filter FAILED
+	The list did not have 9 items
+	Expected: true
+	Actual: false
+	    at node_modules/qunitjs/qunit/qunit.js:2194:12
+	    at Object.eval (bower_components/openui5-sap.ui.core/resources/sap/ui/test/opaQunit.js:42:4)
+	    at k (bower_components/openui5-sap.ui.core/resources/sap-ui-core.js:2:5891)
+	    at Object.fireWith [as rejectWith] (bower_components/openui5-sap.ui.core/resources/sap-ui-core.js:2:6708)
+	    at Object.e.(anonymous function) [as reject] (bower_components/openui5-sap.ui.core/resources/sap-ui-core.js:2:7698)
+	    at eval (bower_components/openui5-sap.ui.core/resources/sap/ui/test/Opa.js:60:15)
+	
+Chrome 53.0.2785 (Mac OS X 10.11.6): Executed 1 of 1 (1 FAILED) (0 secs / 15.884 secs)
+[1A[2KChrome 53.0.2785 (Mac OS X 10.11.6): Executed 1 of 1 (1 FAILED) ERROR (15.392 secs / 15.884 secs)
+[36m02 10 2016 01:57:21.620:DEBUG [launcher]: [39mDisconnecting all browsers
+[36m02 10 2016 01:57:21.886:DEBUG [launcher]: [39mProcess Chrome exited with code 0
+[36m02 10 2016 01:57:21.886:DEBUG [temp-dir]: [39mCleaning temp dir /var/folders/vj/v7v0wczd3l1clgddrm2sv5b00000gn/T/karma-96639172
+[36m02 10 2016 01:57:21.925:DEBUG [launcher]: [39mFinished all browsers
