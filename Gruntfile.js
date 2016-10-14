@@ -76,6 +76,7 @@ module.exports = function(grunt) {
 			options: 
 			{
 				configFile: '.eslintrc.json',
+				format: 'checkstyle',
 				outputFile : 'eslint.xml'
 			},
 			target: ['webapp/view/*.js', 'webapp/util/*.js', 'webapp/model/*.js']
