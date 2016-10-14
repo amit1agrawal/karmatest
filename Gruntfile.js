@@ -8,8 +8,7 @@ module.exports = function(grunt) {
 			webapp: 'webapp',
 			dist: 'dist',
 			bower_components: 'bower_components',
-			warfileout : 'warfile',
-			eslintout : 'eslint/eslint.xml'
+			warfileout : 'warfile'
 		},
 
 		connect: {
@@ -74,8 +73,12 @@ module.exports = function(grunt) {
 		},
 
 		eslint: {
-			webapp: ['<%= dir.webapp %>'],
-			outputFile : '<%= dir.eslintout %>'
+			options: 
+			{
+				configFile: '.eslintrc.json',
+				outputFile : 'eslint.xml'
+			},
+			target: ['webapp/view/*.js', 'webapp/util/*.js', 'webapp/model/*.js']
 		},
 		war: {
 			target: {
@@ -119,7 +122,7 @@ module.exports = function(grunt) {
 
 	// Default task
 	grunt.registerTask('default', [
-		// 'lint',
+		'lint',
 		'clean',
 		'build',
 		// 'serve:dist',
