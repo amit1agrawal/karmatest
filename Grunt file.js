@@ -8,7 +8,8 @@ module.exports = function(grunt) {
 			webapp: 'webapp',
 			dist: 'dist',
 			bower_components: 'bower_components',
-			warfileout : 'warfile'
+			warfileout : 'warfile',
+			eslintout : 'eslint/eslint.xml'
 		},
 
 		connect: {
@@ -73,7 +74,8 @@ module.exports = function(grunt) {
 		},
 
 		eslint: {
-			webapp: ['<%= dir.webapp %>']
+			webapp: ['<%= dir.webapp %>'],
+			outputFile : '<%= dir.eslintout %>'
 		},
 		war: {
 			target: {
