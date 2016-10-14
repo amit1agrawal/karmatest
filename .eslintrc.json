@@ -198,7 +198,7 @@
 		"no-label-var": 1,
 		"no-use-before-define": 1,
 		"semi-spacing": 1,
-		"linebreak-style": [2, "unix"],
+		"linebreak-style": [2, "windows"],
 		"no-empty-label": 1,
 		"max-params": [1, 8],
 		"no-caller": 2,
