@@ -120,7 +120,6 @@ module.exports = function(grunt) {
 
 	//war task
 	grunt.registerTask('warfile', ['war']);
-
 	// Default task
 	grunt.registerTask('default', [
 		'lint',
