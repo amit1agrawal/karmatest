@@ -12,6 +12,39 @@ module.exports = function(grunt) {
             eslintout: 'eslint/eslint.xml'
         },
 
+        openui5_preload: {
+            component: {
+                options: {
+                    resources: {
+                        cwd: '<%=dir.webapp%>',
+                        prefix: 'sap/ui/demo/tdg',
+                        src: [
+                            '**/*.js',
+                            '**/*.fragment.html',
+                            '**/*.fragment.json',
+                            '**/*.fragment.xml',
+                            '**/*.view.html',
+                            '**/*.view.json',
+                            '**/*.view.xml',
+                            '**/*.properties',
+														'**/*.css',
+														'**/*.html',
+														'model/*.*'
+                        ]
+                    },
+                    dest: '<%=dir.dist%>',
+                    compress: {
+                        uglifyjs: {
+                            output: {
+                                comments: /copyright|\(c\)|released under|license|\u00a9/i
+                            }
+                        }
+                    }
+                },
+                components: true
+            }
+        },
+
         connect: {
 
             options: {
@@ -43,23 +76,10 @@ module.exports = function(grunt) {
             }
         },
 
-        openui5_preload: {
-            component: {
-                options: {
-                    resources: {
-                        cwd: '<%= dir.webapp %>',
-                        prefix: 'todo'
-                    },
-                    dest: '<%= dir.dist %>'
-                },
-                components: true
-            }
-        },
-
         clean: {
             dist: '<%= dir.dist %>/',
-						warfileout: '<%=dir.warfileout%>',
-						eslintout:'<%=dir.eslintout%>'
+            warfileout: '<%=dir.warfileout%>',
+            eslintout: '<%=dir.eslintout%>'
         },
 
         copy: {
@@ -114,7 +134,7 @@ module.exports = function(grunt) {
                         transportno: 'SMAK900168'
                     },
                     resources: {
-                        cwd: 'webapp',
+                        cwd: '<%=dir.dist%>',
                         src: '**/*.*'
                     }
                 }
@@ -140,19 +160,22 @@ module.exports = function(grunt) {
     // Linting task
     grunt.registerTask('lint', ['eslint']);
 
+    grunt.registerTask('preload', ['openui5_preload']);
     // Build task
     grunt.registerTask('build', ['openui5_preload', 'copy']);
 
     //war task
     grunt.registerTask('warfile', ['war']);
 
+		grunt.registerTask('abapupload', ['nwabap_ui5uploader']);
+
     // Default task
     grunt.registerTask('default', [
-				'clean',
-				//'lint',
+        'clean',
+        //'lint',
         'build',
         // 'serve:dist',
         'warfile',
-        'nwabap_ui5uploader'
+        'abapupload'
     ]);
 };
