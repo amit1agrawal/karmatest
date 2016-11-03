@@ -2,130 +2,157 @@
 
 module.exports = function(grunt) {
 
-	grunt.initConfig({
+    grunt.initConfig({
 
-		dir: {
-			webapp: 'webapp',
-			dist: 'dist',
-			bower_components: 'bower_components',
-			warfileout : 'warfile'
-		},
+        dir: {
+            webapp: 'webapp',
+            dist: 'dist',
+            bower_components: 'bower_components',
+            warfileout: 'warfile',
+            eslintout: 'eslint/eslint.xml'
+        },
 
-		connect: {
-			options: {
-				port: 8080,
-				hostname: '*'
-			},
-			src: {},
-			dist: {}
-		},
+        connect: {
 
-		openui5_connect: {
-			options: {
-				resources: [
-					'<%= dir.bower_components %>/openui5-sap.ui.core/resources',
-					'<%= dir.bower_components %>/openui5-sap.m/resources',
-					'<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
-					'<%= dir.bower_components %>/openui5-themelib_sap_bluecrystal/resources'
-				]
-			},
-			src: {
-				options: {
-					appresources: '<%= dir.webapp %>'
-				}
-			},
-			dist: {
-				options: {
-					appresources: '<%= dir.dist %>'
-				}
-			}
-		},
+            options: {
+                port: 8080,
+                hostname: '*'
+            },
+            src: {},
+            dist: {}
+        },
 
-		openui5_preload: {
-			component: {
-				options: {
-					resources: {
-						cwd: '<%= dir.webapp %>',
-						prefix: 'todo'
-					},
-					dest: '<%= dir.dist %>'
-				},
-				components: true
-			}
-		},
+        openui5_connect: {
+            options: {
+                resources: [
+                    '<%= dir.bower_components %>/openui5-sap.ui.core/resources',
+                    '<%= dir.bower_components %>/openui5-sap.m/resources',
+                    '<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
+                    '<%= dir.bower_components %>/openui5-themelib_sap_bluecrystal/resources'
+                ]
+            },
+            src: {
+                options: {
+                    appresources: '<%= dir.webapp %>'
+                }
+            },
+            dist: {
+                options: {
+                    appresources: '<%= dir.dist %>'
+                }
+            }
+        },
 
-		clean: {
-			dist: '<%= dir.dist %>/'
-		},
+        openui5_preload: {
+            component: {
+                options: {
+                    resources: {
+                        cwd: '<%= dir.webapp %>',
+                        prefix: 'todo'
+                    },
+                    dest: '<%= dir.dist %>'
+                },
+                components: true
+            }
+        },
 
-		copy: {
-			dist: {
-				files: [ {
-					expand: true,
-					cwd: '<%= dir.webapp %>',
-					src: [
-						'**',
-						'!test/**'
-					],
-					dest: '<%= dir.dist %>'
-				} ]
-			}
-		},
+        clean: {
+            dist: '<%= dir.dist %>/',
+						warfileout: '<%=dir.warfileout%>',
+						eslintout:'<%=dir.eslintout%>'
+        },
 
-		eslint: {
-			options: 
-			{
-				configFile: '.eslintrc.json',
-				format: 'checkstyle',
-				outputFile : 'eslint.xml'
-			},
-			target: ['webapp/view/*.js', 'webapp/util/*.js', 'webapp/model/*.js']
-		},
-		war: {
-			target: {
-				options:{
-					war_dist_folder: '<%= dir.warfileout %>',
-					war_name: 'karmatest'
-				},
-				files: [
-					{
-						expand: true,
-						cwd: '<%= dir.webapp %>',
-						src : ['**'],
-						dest: ''
-					}
-				]
-			}
-		}
-	});
+        copy: {
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= dir.webapp %>',
+                    src: [
+                        '**',
+                        '!test/**'
+                    ],
+                    dest: '<%= dir.dist %>'
+                }]
+            }
+        },
 
-	// These plugins provide necessary tasks.
-	grunt.loadNpmTasks('grunt-contrib-connect');
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-openui5');
-	grunt.loadNpmTasks('grunt-eslint');
-	grunt.loadNpmTasks('grunt-war');
+        eslint: {
+            webapp: ['<%= dir.webapp %>'],
+            outputFile: '<%= dir.eslintout %>'
+        },
+        war: {
+            target: {
+                options: {
+                    war_dist_folder: '<%= dir.warfileout %>',
+                    war_name: 'karmatest'
+                },
+                files: [{
+                    expand: true,
+                    cwd: '<%= dir.webapp %>',
+                    src: ['**'],
+                    dest: ''
+                }]
+            }
+        },
 
-	// Server task
-	grunt.registerTask('serve', function(target) {
-		grunt.task.run('openui5_connect:' + (target || 'src') + ':keepalive');
-	});
+        nwabap_ui5uploader: {
+            options: {
+                conn: {
+                    server: 'http://appsvr5.industrysoln.sl.edst.ibm.com:51000',
+                },
+                auth: {
+                    user: "AMIT_A",
+                    pwd: "ibm123"
+                }
+            },
+            upload_build: {
+                options: {
+                    ui5: {
+                        package: 'ZMOB',
+                        bspcontainer: 'ZZ_UI5_LOCAL',
+                        bspcontainer_text: 'UI5 upload',
+                        transportno: 'SMAK900168'
+                    },
+                    resources: {
+                        cwd: 'webapp',
+                        src: '**/*.*'
+                    }
+                }
+            }
+        }
 
-	// Linting task
-	grunt.registerTask('lint', ['eslint']);
+    });
 
-	// Build task
-	grunt.registerTask('build', ['openui5_preload', 'copy']);
+    // These plugins provide necessary tasks.
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-openui5');
+    grunt.loadNpmTasks('grunt-eslint');
+    grunt.loadNpmTasks('grunt-war');
+    grunt.loadNpmTasks('grunt-nwabap-ui5uploader');
 
-	//war task
-	grunt.registerTask('warfile', ['war']);
-	// Default task
-	grunt.registerTask('default', [
-		'lint',
-		'clean',
-		'build',
-		// 'serve:dist',
-		'warfile'
-	]);
+    // Server task
+    grunt.registerTask('serve', function(target) {
+        grunt.task.run('openui5_connect:' + (target || 'src') + ':keepalive');
+    });
+
+    // Linting task
+    grunt.registerTask('lint', ['eslint']);
+
+    // Build task
+    grunt.registerTask('build', ['openui5_preload', 'copy']);
+
+    //war task
+    grunt.registerTask('warfile', ['war']);
+
+    // Default task
+    grunt.registerTask('default', [
+				'clean',
+				//'lint',
+        'build',
+        // 'serve:dist',
+        'warfile',
+        'nwabap_ui5uploader'
+    ]);
 };
